@@ -1,0 +1,33 @@
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  thead{
+      background-color: rgb(55, 255, 245);
+  }
+  tbody tr{
+      background-color: rgb(246, 255, 255);
+  }
+  tbody tr:hover{
+    background-color: rgb(228, 230, 230);
+}
+#update{
+    background-color: rgb(153, 255, 238);
+    color: black;
+    border: 3px solid rgb(13, 255, 215);
+}
+#view{
+    background-color: rgb(13, 239, 255);
+    color: black;
+    border: 3px solid rgb(13, 219, 255);
+}
+#delete{
+    background-color: rgb(255, 102, 102);
+    color: black;
+    border: 3px solid rgb(255, 74, 74);
+}

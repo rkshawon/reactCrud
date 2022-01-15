@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(20, 255, 255);
+    width: 100%;
+    justify-content: center;
+}
+.logo{
+    font-weight: bolder;
+    font-size: larger;
+}
+.header-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 70%;
+    font-weight: bolder;
+}
+.header-right p{
+    margin: 10px;
+}
